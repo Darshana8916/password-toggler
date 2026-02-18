@@ -1,0 +1,38 @@
+body {
+
+    margin: 0;
+    padding: 0;
+    font-family: Arial,sans-serif;
+}
+.main-container{
+    background-color: gray;
+    width: 300px;
+    padding: 30px;
+    margin: 100px auto;
+    border-radius: 5px;
+    border: 2px solid gray;
+}
+
+.input-container {
+    background-color: white;
+    padding: 10px;
+    border-radius: 5px;
+    display: flex;
+}
+
+.user-input{
+    border: none;
+    width: 250px;
+    font-size: 18px;
+    background-color: white;
+    color: #2d4063;
+}
+
+.user-input:focus{
+    outline: none;
+}
+.view-icon{
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
