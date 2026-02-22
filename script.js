@@ -7,6 +7,6 @@ function handleEyeClick() {
     }
     else{
         inputElement.type="password";
-        viewElement.src="image/hide.png";
+        viewElement.src="images/hide.png";
     }
     }
